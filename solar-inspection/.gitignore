@@ -1,0 +1,48 @@
+# Build directories
+build/
+bin/
+lib/
+
+# IDE specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Compiled files
+*.o
+*.so
+*.a
+*.exe
+*.dll
+*.dylib
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Logs
+logs/
+*.log
+
+# Python cache files (如果后续使用Python)
+__pycache__/
+*.py[cod]
+
+# Model files (大文件单独管理)
+models/*.weights
+models/*.pt
+models/*.onnx
+
+# Dataset
+data/raw/
+data/processed/
+
+# Environment
+.env
+
+# System files
+.DS_Store
+Thumbs.db
